@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  background: #17a2b8;
+ }
+.fortmulair{
+  margin: -50px;
+}
+.div1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,2);
+}
+h4{
+  text-align: center;
+  font-size: 20px;
+}
+hr{
+  margin: 10px 0;
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  width: 100px;
+}
+.name field{
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+}
+.name-field div{
+  display: flex;
+  flex-direction: column;
+}
+.name-field div{
+  width: 49%;
+}
+label{
+  margin-bottom: 6px;
+}
+input{
+  margin-bottom: 5px;
+  padding: 5px;
+  outline: 0;
+  border: 1px solid rgba(0,0,0,0.4);
+}
+input:focus{
+  border: 1px solid #17a2b8;
+}
+inputtype [type"[submit"]{
+  margin-top: 15px;
+  background-color: #17a2b8;
+  color :#fff;
+  border :1px solid #17a2b8
+  cursor :pointer
+}
+
+p{
+  text-align: center;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+P  a{
+  text-decoration: 0;
+  color: #17a2b8;
+}
+
+P  a:hover{
+  text-decoration: underline;
+}
